@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+int main(){
+int a = 5;
+cout<<"alamat variabel a adalah :" <<&a<<endl;
+cout<<"nilai variabel a adalah :" <<a<<endl;
+return 0;
+}
