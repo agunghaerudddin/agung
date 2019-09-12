@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main(){
+int a=5;
+int *b;
+b=&a;
+cout<<"nilai variabel a adalah"<<a<<endl;
+cout<<"alamat variabel a adalah "<<&a<<endl;
+cout<<"isi dari variabel b adalah"<<b<<endl;
+cout<<"nilai yang tertampung dalam variabel b adalah "<<*b<<endl;
+
+return 0;
+}
